@@ -12,7 +12,7 @@ function calcUserAge(userBirthYear) { // Calculate User Age
 	if (userAge > 50) {
 		console.log(`${userName} is ready for retirement`);
 	} else {
-		console.log(`${userName} is ${userAge} years old and can retire at the year ${retirementYear} with ${retiredYear} years remaining at work`)
+		console.log(`${userName} is ${userAge} years old and will be eligible for retirement in the Year ${retirementYear}, there are ${retiredYear} remaining years left`)
 	}
 }
 
